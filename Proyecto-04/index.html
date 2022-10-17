@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 4 - Cuppon</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-sm bg-verde px-3 nav-color">
+                <a class="navbar-brand text-white">CUPPON</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#opciones" type="button">
+                    <span class="navbar-toggler-icon navbar-dark"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="opciones">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Características</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Precio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Deshabilitar</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <section class="py-2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <img src="assets/img/01-tacos-800x531px.jpg" class="card-img-top" alt="tacos mexicanos">
+                        <div class="card-body">
+                            <h5 class="card-title tit-card">Tacos mexicanos de carne o vegenos</h5>
+                            <p class="card-text txt1 ">La mejor cocina de México</p>
+                            <p class="txt2"><i class="fa fa-map-marker fa-3" style="color:grey;" aria-hidden="true"></i>
+                                Avenida Vitacura 660, Las Condes</p>
+                            <hr>
+                            <p class="txt1 text-end">$ 18.990 <span class="precio-verde"> $ 15.200 </span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <img src="assets/img/02-hamburgesa-800x831.jpg" class="card-img-top" alt="hamburguesas">
+                        <div class="card-body">
+                            <h5 class="card-title tit-card">Hamburguesa tradicional en variedades o de lentejas</h5>
+                            <p class="card-text txt1 ">El sabor de siempre y mejor</p>
+                            <p class="txt2"><i class="fa fa-map-marker fa-3" style="color:grey;" aria-hidden="true"></i>
+                                Gran Avenida 10200, San Miguel</p>
+                            <hr>
+                            <p class="txt1 text-end">$ 21.000 <span class="precio-verde"> $ 17.300 </span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <img src="assets/img/03-cazuela-800x831.jpg" class="card-img-top" alt="cazuela de vacuno">
+                        <div class="card-body">
+                            <h5 class="card-title tit-card">Cazuela chilena de vacuno o pollo, ingredientes
+                                seleccionados</h5>
+                            <p class="card-text txt1 ">Una tradición patria que nunca pasa.</p>
+                            <p class="txt2"><i class="fa fa-map-marker fa-3" style="color:grey;" aria-hidden="true"></i>
+                                Avenida José Pedro Alessandri 345</p>
+                            <hr>
+                            <p class="txt1 text-end">$ 14.990 <span class="precio-verde"> $ 11.200 </span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <img src="assets/img/04-trucha-800x531.jpg" class="card-img-top" alt="trucha">
+                        <div class="card-body">
+                            <h5 class="card-title tit-card">Trucha de río, una tradición que no pasa de moda</h5>
+                            <p class="card-text txt1 ">El mejor pescado fresco de temporada</p>
+                            <p class="txt2"><i class="fa fa-map-marker fa-3" style="color:grey;" aria-hidden="true"></i>
+                                Avenida Grecia 3080, Ñuñoa</p>
+                            <hr>
+                            <p class="txt1 text-end">$ 19.990 <span class="precio-verde"> $ 15.990 </span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <img src="assets/img/05-milanesa-800x531.jpg" class="card-img-top" alt="milanesa">
+                        <div class="card-body">
+                            <h5 class="card-title tit-card">Milanesa con papas fritas, el sabor bonaerense que buscas
+                            </h5>
+                            <p class="card-text txt1 ">Ya no es necesario cruzar la cordillera</p>
+
+                            <p class="txt2"><i class="fa fa-map-marker fa-3" style="color:grey;" aria-hidden="true"></i>
+                                Las Tranqueras 890, Vitacura</p>
+                            <hr>
+                            <p class="txt1 text-end">$ 15.000 <span class="precio-verde"> $ 13.500 </span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <img src="assets/img/06-noqui-800x531.jpg" class="card-img-top" alt="ñoquis">
+                        <div class="card-body">
+                            <h5 class="card-title tit-card">Ñoquis con con plateada, el inigualable sabor de italia en
+                                tu mesa</h5>
+                            <p class="card-text txt1 ">La tradición italiana que todos quieren probar</p>
+                            <p class="txt2"><i class="fa fa-map-marker fa-3" style="color:grey;" aria-hidden="true"></i>
+                                Matucana 770, Santiago</p>
+                            <hr>
+                            <p class="txt1 text-end">$ 22.990 <span class="precio-verde"> $ 17.000 </span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="row" <div class="col-md-12">
+        <form class="bg-verde p-5 ">
+            <fieldset disabled>
+                <legend class="tit-form">Recibe cupones en tu correo</legend>
+                <div class="mb-3">
+                    <input type="text" id="disabledTextInput" class="form-control txt2" placeholder="Nombre">
+                </div>
+                <div class="mb-3">
+                    <input type="email" id="disabledTextInput" class="form-control txt2"
+                        placeholder="Correo Electrónico">
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-light">Enviar</button>
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+    </div>
+    <footer class="text-center  mt-xxl-3 ">
+        <h3 class="fw-bold">CUPPON</h3>
+        <p class="txt2">&#169; 2022 CUPPON Latam, todos los derechos reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
